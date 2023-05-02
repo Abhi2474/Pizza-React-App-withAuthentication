@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+	Form div {
+		@apply flex flex-col my-2
+	}
+
+	Form .errMsg {
+		@apply text-red-500 italic text-sm
+	}
+
+	Form .field {
+		@apply border rounded border-blue-300 py-2 px-4
+	}
+
+	.btn {
+		@apply bg-blue-500 rounded py-2 px-4 text-white font-bold mt-2 w-full hover:bg-red-300
+	}
+
+	.authBtn {
+		@apply border border-white rounded px-4 py-1 my-2 ml-2 hover:bg-red-400 hover:underline transition-all
+	}
+}
