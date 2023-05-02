@@ -1,6 +1,6 @@
 # Pizza-React-App-withAuthentication 
 
-Develop a one-page website for a taxi inquiry service using ReactJS
+I created a Pizza-React-App using vite and with the authentication. In this web app the user can register, login and also logout.
 ## Clone the repo
 
 Install the dependencies with npm
